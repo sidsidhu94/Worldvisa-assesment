@@ -34,7 +34,7 @@ The core data models are the **Product** and **Category** models:
 
 ### Create Product
 
-- **Endpoint:** `/api/products/`
+- **Endpoint:** `/products/create/`
 - **Method:** `POST`
 - **Request Body:**
   ```json
