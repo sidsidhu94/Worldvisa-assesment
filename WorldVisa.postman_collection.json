@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "422da0ee-eb8f-48ab-97fb-2935a7f728d0",
+		"name": "WorldVisa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30399316"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/products/create/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_name\": \"Pottery Vasel\",\n    \"description\": \"Handcrafted pottery vasel.\",\n    \"selling_price\": \"250.00\",\n    \"category\": \"Pottery\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/products/create/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"products",
+						"create",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
